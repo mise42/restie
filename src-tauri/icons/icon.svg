@@ -1,8 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
-  <rect width="1024" height="1024" fill="#000000" opacity="0"/>
   <g opacity="1">
-    <path fill="#4a4a4a" d="M 212 0 L 812 0 L 812 50 Q 812 450 512 500 Q 212 450 212 50 Z"/>
-    <path fill="#ff0000" d="M 812 100 Q 962 120 962 280 Q 962 400 842 420 L 812 400 Q 892 380 892 280 Q 892 170 812 150 Z"/>
+    <path fill="#4a4a4a" d="
+      M 212 0
+      L 812 0
+      L 812 50
+      Q 812 450 512 500
+      Q 212 450 212 50
+      Z
+    "/>
+    <path fill="#4b4b4b" d="
+      M 812 100
+      Q 962 120 962 280
+      Q 962 400 842 420
+      L 812 400
+      Q 892 380 892 280
+      Q 892 170 812 150
+      Z
+    "/>
     <rect fill="#4a4a4a" x="242" y="692" width="640" height="40" rx="20"/>
   </g>
+  <circle cx="180" cy="180" r="5" fill="#4b4b4b" opacity="0.5"/>
 </svg>
