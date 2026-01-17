@@ -2,13 +2,13 @@
 
 ## Tasks
 
-- [x] 1. Create monochrome coffee cup icon design
+- [ ] 1. Create monochrome coffee cup icon design
   - Sketch minimal coffee cup concept
   - Use geometric shapes for clean, modern look
   - Ensure readability at small sizes (16px, 32px)
   - Export as high-resolution PNG (1024x1024)
 
-- [x] 2. Generate required icon sizes and formats
+- [ ] 2. Generate required icon sizes and formats
   - 32x32.png
   - 128x128.png
   - 128x128@2x.png (256x256)
@@ -17,17 +17,17 @@
   - icon.ico (Windows)
   - icon.icns (macOS)
 
-- [x] 3. Backup and replace existing icons
+- [ ] 3. Backup and replace existing icons
   - Copy existing icons to temporary backup location
   - Delete or move default Tauri icons from `src-tauri/icons/`
   - Copy new icon files to `src-tauri/icons/`
 
-- [x] 4. Verify icon configuration
+- [ ] 4. Verify icon configuration
   - Check `src-tauri/tauri.conf.json` icon paths
   - Update paths if filenames changed
   - Ensure all required formats are listed
 
-- [x] 5. Test icon display locally
+- [ ] 5. Test icon display locally
   - Run `bun run tauri:dev` to test in development
   - Verify icon appears in app window title bar
   - Check system tray icon (if applicable)
@@ -42,7 +42,7 @@
     - About/About Restie window
     - Application folder (Finder/Explorer)
 
-- [ ] 7. Add icons to git and commit
+- [x] 7. Add icons to git and commit
   - Stage new icon files
   - Ensure git LFS is not needed (icons should be <100MB)
   - Commit with descriptive message
